@@ -6,23 +6,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class PathController {
 
+
     @GetMapping(path = "/")
     public String home(){
 
         return "Welcome to homepage";
     }
-
-
-    @GetMapping(path = "/togglz")
-    public String togglz(){
-        if( MyTogglzFeatures.FEATURE_ONE.isActive() ) {
-            return "Hello";
-        }
-
-        return "not working";
-
-    }
-
 
     @GetMapping(path = "/ping")
     public String ping(){
@@ -44,4 +33,7 @@ public class PathController {
     public String helloCreator(){
         return "hello Joakim";
     }
+
+
 }
+

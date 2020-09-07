@@ -13,7 +13,11 @@ public class PathController {
         } else {
             return "Not an active feature";
         }
+        return "Welcome to homepage bro";
+
     }
+
+
 
     @GetMapping(path = "/ping")
     public String ping(){

@@ -22,5 +22,9 @@ public class PathController {
     }
 
 
+    @GetMapping(path = "/pingpong")
+    public String pingPong(){
+        return "pingPong";
+    }
 
 }

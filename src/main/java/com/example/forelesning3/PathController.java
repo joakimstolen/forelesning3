@@ -29,4 +29,8 @@ public class PathController {
         return "pingPong";
     }
 
+    @GetMapping(path = "/jokke")
+    public String helloCreator(){
+        return "hello Joakim";
+    }
 }

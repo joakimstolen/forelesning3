@@ -10,7 +10,11 @@ public class PathController {
     public String home(){
 
         return "Welcome to homepage";
+
+
     }
+
+
 
     @GetMapping(path = "/ping")
     public String ping(){

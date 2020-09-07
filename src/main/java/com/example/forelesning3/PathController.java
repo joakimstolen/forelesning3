@@ -8,7 +8,7 @@ public class PathController {
 
     @GetMapping(path = "/")
     public String home(){
-        return "Welcome to homepage";
+        return "Welcome to homepage bro";
     }
 
 

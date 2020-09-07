@@ -8,11 +8,8 @@ public class PathController {
 
     @GetMapping(path = "/")
     public String home(){
-        if( MyTogglzFeatures.FEATURE_ONE.isActive() ) {
-            return "Welcome to homepage";
-        } else {
-            return "Not an active feature";
-        }
+
+        return "Welcome to homepage";
     }
 
     @GetMapping(path = "/ping")

@@ -10,10 +10,18 @@ public class PathController {
     public String home(){
 
         return "Welcome to homepage";
-
-
     }
 
+
+    @GetMapping(path = "/togglz")
+    public String togglz(){
+        if( MyTogglzFeatures.FEATURE_ONE.isActive() ) {
+            return "Hello";
+        }
+
+        return "not working";
+
+    }
 
 
     @GetMapping(path = "/ping")

@@ -10,4 +10,5 @@ public class Forelesning3Application {
 		SpringApplication.run(Forelesning3Application.class, args);
 	}
 
+
 }

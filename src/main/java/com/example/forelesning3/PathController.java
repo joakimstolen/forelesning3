@@ -11,8 +11,6 @@ public class PathController {
         return "Welcome to homepage";
     }
 
-
-
     @GetMapping(path = "/ping")
     public String ping(){
         return "pong";

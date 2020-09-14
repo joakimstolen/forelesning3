@@ -17,7 +17,7 @@ public class PathController {
 
     @GetMapping(path = "/hello")
     public String ping(){
-        return "Hello to you!";
+        return "Hello to you! Hellohello";
     }
 
     @GetMapping(path = "/pong")

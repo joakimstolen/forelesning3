@@ -9,10 +9,8 @@ public class PathController {
 
     @GetMapping(path = "/")
     public String home(){
-
         return "Welcome to homepage. Try entering /hello";
     }
-
 
 
     @GetMapping(path = "/hello")

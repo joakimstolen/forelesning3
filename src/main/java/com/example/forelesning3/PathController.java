@@ -10,17 +10,17 @@ public class PathController {
     @GetMapping(path = "/")
     public String home(){
 
-        return "Welcome to homepage";
+        return "Welcome to homepage. Try entering /hello";
     }
 
-    @GetMapping(path = "/ping")
+    @GetMapping(path = "/hello")
     public String ping(){
-        return "pong";
+        return "Hello to you!";
     }
 
     @GetMapping(path = "/pong")
     public String pong(){
-        return "ping";
+        return "ping is the word";
     }
 
 
@@ -29,9 +29,9 @@ public class PathController {
         return "pingPong";
     }
 
-    @GetMapping(path = "/jokke")
+    @GetMapping(path = "/user")
     public String helloCreator(){
-        return "hello Joakim";
+        return "hello user";
     }
 
 

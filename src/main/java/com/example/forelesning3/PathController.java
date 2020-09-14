@@ -13,6 +13,8 @@ public class PathController {
         return "Welcome to homepage. Try entering /hello";
     }
 
+
+
     @GetMapping(path = "/hello")
     public String ping(){
         return "Hello to you!";

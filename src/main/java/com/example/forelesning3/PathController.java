@@ -20,7 +20,7 @@ public class PathController {
 
     @GetMapping(path = "/pong")
     public String pong(){
-        return "ping is the word";
+        return "ping is the wordddd";
     }
 
 
